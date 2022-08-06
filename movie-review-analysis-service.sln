@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie-review-analysis-service", "movie-review-analysis-service\movie-review-analysis-service.csproj", "{296A31A8-FD76-4BDF-98A2-384D16915CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{296A31A8-FD76-4BDF-98A2-384D16915CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296A31A8-FD76-4BDF-98A2-384D16915CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296A31A8-FD76-4BDF-98A2-384D16915CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296A31A8-FD76-4BDF-98A2-384D16915CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7AA2D48-682E-43DA-9315-78BADA94DA64}
+	EndGlobalSection
+EndGlobal
