@@ -8,8 +8,7 @@ namespace movie_review_analysis_service.Services
     {
         private readonly IMongoCollection<MovieDatabaseStructure> _moviesCollection;
 
-        public MovieService(
-            IOptions<MovieReviewAnalysisSettings> movieReviewAnalysisSettings)
+        public MovieService(IOptions<MovieReviewAnalysisSettings> movieReviewAnalysisSettings)
         {
             var settings = MongoClientSettings.FromConnectionString(
                 movieReviewAnalysisSettings.Value.ConnectionString);

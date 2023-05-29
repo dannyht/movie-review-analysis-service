@@ -45,14 +45,14 @@ namespace movie_review_analysis_service.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, MovieDatabaseStructure updatedMovie)
         {
-            var book = await _movieService.GetAsync(id);
+            var movie = await _movieService.GetAsync(id);
 
-            if (book is null)
+            if (movie is null)
             {
                 return NotFound();
             }
 
-            updatedMovie.Id = book.Id;
+            updatedMovie.Id = movie.Id;
 
             await _movieService.UpdateAsync(id, updatedMovie);
 
@@ -63,9 +63,9 @@ namespace movie_review_analysis_service.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {
-            var book = await _movieService.GetAsync(id);
+            var movie = await _movieService.GetAsync(id);
 
-            if (book is null)
+            if (movie is null)
             {
                 return NotFound();
             }

@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.Configure<MovieReviewAnalysisSettings>(
-    builder.Configuration.GetSection("MovieReviewAnalysisSettins"));
+    builder.Configuration.GetSection("MovieReviewAnalysisSettings"));
 
 builder.Services.AddSingleton<MovieService>();
 builder.Services.AddControllers()
