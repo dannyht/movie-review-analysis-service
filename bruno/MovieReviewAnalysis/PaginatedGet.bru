@@ -1,0 +1,16 @@
+meta {
+  name: PaginatedGet
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:58772/api/Movies/paged/?page=1&pageSize=4
+  body: none
+  auth: none
+}
+
+params:query {
+  page: 1
+  pageSize: 4
+}
